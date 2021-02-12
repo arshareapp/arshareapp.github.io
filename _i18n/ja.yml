@@ -1,0 +1,8 @@
+global:
+  english: Eng 
+  japanese: Jap
+pages:
+  home: Home
+  work: Work
+# titles:
+#   pagination: Pagination

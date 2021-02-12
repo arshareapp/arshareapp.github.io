@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/ja/ar/release/2021/01/13/share-ar/</loc>
+<lastmod>2021-01-13T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/ja/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ja/contact-success/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ja/contact/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ja/blog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ja/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ja/category/ar/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ja/category/release/</loc>
+</url>
+</urlset>

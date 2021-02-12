@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/ja/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ja/" rel="alternate" type="text/html" hreflang="ja" /><updated>2021-02-12T13:23:22+00:00</updated><id>http://localhost:4000/ja/feed.xml</id><title type="html">Frisco Template</title><subtitle>App marketing template for Jekyll.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">ShARe-ARをリリースしました！</title><link href="http://localhost:4000/ja/ar/release/2021/01/13/share-ar/" rel="alternate" type="text/html" title="ShARe-ARをリリースしました！" /><published>2021-01-13T00:00:00+00:00</published><updated>2021-01-13T00:00:00+00:00</updated><id>http://localhost:4000/ja/ar/release/2021/01/13/share-ar</id><content type="html" xml:base="http://localhost:4000/ja/ar/release/2021/01/13/share-ar/">&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/share-ar/id1541093585#?platform=iphone&quot;&gt;ShARe-AR&lt;/a&gt;をiPhoneのアプリストアに公開しました！&lt;/p&gt;
+
+&lt;style&gt;
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: &quot;&quot;;
+  clear: both;
+  display: table;
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;column&quot;&gt;
+    &lt;a href=&quot;https://ibb.co/M8n7Vy9&quot;&gt;&lt;img src=&quot;https://i.ibb.co/xmh6jK3/screenshot-4.png&quot; alt=&quot;screenshot-4&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column&quot;&gt;
+    &lt;a href=&quot;https://ibb.co/zHrHW2G&quot;&gt;&lt;img src=&quot;https://i.ibb.co/0VcVp9h/screenshot-3-5-5.png&quot; alt=&quot;screenshot-3-5-5&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column&quot;&gt;
+    &lt;a href=&quot;https://ibb.co/sJgQBWC&quot;&gt;&lt;img src=&quot;https://i.ibb.co/QjJn5Dk/screenshot-1-5-5.png&quot; alt=&quot;screenshot-1-5-5&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;このアプリではAR(仮想現実)の色の違う立方体と球体を組み合わせてを使って、作りたいものを作れます。ぜひダウンロードしてみてください。&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">ShARe-ARをiPhoneのアプリストアに公開しました！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://source.unsplash.com/collection/375719/2000x1322?a=.png" /></entry></feed>
