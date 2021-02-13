@@ -47,35 +47,40 @@
 				</div>
 				<nav>
 	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+
 	
 		
-		
+			
+			
 
+			
+			<a href="/ja/blog/" class="" >ブログ</a>
 		
-		<a href="/ja/blog/" class="" >Blog</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/ja/about/" class="" >会社情報</a>
 		
-		<a href="/ja/about/" class="" >About</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/ja/contact/" class="" >お問い合わせ</a>
 		
-		<a href="/ja/contact/" class="" >Contact</a>
 	
 </nav>
 
-				<p class="editor-link"><a style="display:inline;" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a></p>
 
-				<nav id="lang-sel" >
+				<p class="editor-link"><a style="display:inline;" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>
+				</p>
+
+				<nav id="lang-sel" align="right">
 				    <ul class="lang">
 				        
 				        
 				        
-				        <a href="/ar/release/2021/01/13/share-ar/"> 英語</a>|<a href="/ja/ar/release/2021/01/13/share-ar/" class="enabled">日本語</a>
+				        	<a href="/ar/release/2021/01/13/share-ar/">英語</a>|<a href="/ja/ar/release/2021/01/13/share-ar/" class="enabled">日本語</a>
 				        
 				    </ul>
 				 </nav>
@@ -109,9 +114,7 @@
 
 
 		<div class="post-content">
-			<p><a href="https://apps.apple.com/us/app/share-ar/id1541093585#?platform=iphone">ShARe-AR</a>をiPhoneのアプリストアに公開しました！</p>
-
-<style>
+			<style>
 * {
   box-sizing: border-box;
 }
@@ -130,6 +133,11 @@
 }
 </style>
 
+<p><a href="https://apps.apple.com/us/app/share-ar/id1541093585#?platform=iphone">ShARe-AR</a>をiPhoneのアプリストアに公開しました！</p>
+
+<p><a href="https://apps.apple.com/us/app/share-ar/id1541093585?itscg=30200&amp;itsct=apps_box" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"><img src="/images/logo/share-ar.png" alt="ShARe-AR" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;" align="center" /></a>
+<a href="https://apps.apple.com/us/app/share-ar/id1541093585?itscg=30200&amp;itsct=apps_box" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"><img src="/ja/images/appstore/black_ja.svg" alt="ShARe-AR" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;" align="center" /></a></p>
+
 <div class="row">
   <div class="column">
     <a href="https://ibb.co/M8n7Vy9"><img src="https://i.ibb.co/xmh6jK3/screenshot-4.png" alt="screenshot-4" border="0" /></a>
@@ -142,15 +150,43 @@
   </div>
 </div>
 
-<p>このアプリではAR(仮想現実)の色の違う立方体と球体を組み合わせてを使って、作りたいものを作れます。ぜひダウンロードしてみてください。</p>
+<p>このアプリではARの色の違う立方体と球体を組み合わせてを使って、作りたいものを作れます。上の写真にあるように、他のユーザーが作成したピカチュウをダウンロードできたり、また自分でも好きな物を作れます。そして、自作したモデルに関してはダウンロード数をいつでも確認することができます。</p>
+
+<p>この記事ではアプリ開発に至った経緯と、アプリの使い方について書きたいと思います。</p>
+
+<ul>
+  <li>開発したきっかけ</li>
+  <li>使い方</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="開発したきっかけ">開発したきっかけ</h2>
+
+<p>Pokemon GoをきっかけにAR（仮想現実）に注目が集まってしばらくしましたが、一般的には2021年現在であってもARはあまり身近に浸透していません。筆者自身ARのアプリを使うことが全然なく、将来使われるようになるんだろうなぐらいに思っていました。</p>
+
+<p>2020年10月、大学で普通に授業を受けていると、ある時友達がハッカソンに誘ってくれました。ハッカソンとは24時間でスマホアプリなどを作り上げ、そのクオリティを他のチームと競い合うという大会です。そこでiPhoneでせっかくARを使えるのだから、ARのアプリを作ってみようということになりました。</p>
+
+<p>ARとは、3Dモデルを使って現実世界に存在しているかのように投影する技術のことですが、この3Dモデルを作成するにはどうやらパソコンを使って難しいソフトウェアを使わないと無理だということに気づきました。筆者のチームは、これをもっと簡単にケータイのアプリから作れるようにすれば、もっと多くの人がARで遊べるのではないかと考え、そこで「誰でも簡単に3Dモデルを作って、ARで遊べる」をコンセプトにアプリを作ることにしました。ShARe-ARはこの時に作ったmARketplaceというアプリを元にして作られました。</p>
+
+<iframe width="560" height="315" text-align="center" src="https://www.youtube.com/embed/vDZaJv55KNA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br /></p>
+
+<h2 id="使い方">使い方</h2>
+
+<div style="padding:145.56% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/511879263?autoplay=1&amp;loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<p>このデモビデオでは、緑と茶色の立方体を組み合わせて木を作っています。このように想像力次第でなんでもできるので、ARで何か作ってみたいということであれば、ぜひダウンロードしてみてください。</p>
 
 
 
 			<div class="author">
 				
 				
-				<div class="square-image" style="background-image: url('/ja')"></div>
-				<p class="blurb"></p>
+				<div class="square-image" style="background-image: url('/ja/images/profile/takashi_profile.jpeg')"></div>
+				<p class="blurb">Takashi likes to practice martial arts called kendo(剣道).</p>
 			</div>
 
 			<div class="blog-navigation">
@@ -171,26 +207,28 @@
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 				<ul class="footer-left-links">
 					
-						<li>
-							<a  href="/ja/blog/" >
-								
-								Blog
-							</a>
-						</li>
-					
-						<li>
-							<a  href="/ja/about/" >
-								
-								About
-							</a>
-						</li>
-					
-						<li>
-							<a  href="/ja/contact/" >
-								
-								Contact
-							</a>
-						</li>
+						
+							<li>
+								<a  href="/ja/blog/" >
+									
+									ブログ
+								</a>
+							</li>
+						
+							<li>
+								<a  href="/ja/about/" >
+									
+									会社情報
+								</a>
+							</li>
+						
+							<li>
+								<a  href="/ja/contact/" >
+									
+									お問い合わせ
+								</a>
+							</li>
+						
 					
 				</ul>
 				<ul class="footer-right-links">

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/ja/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ja/" rel="alternate" type="text/html" hreflang="ja" /><updated>2021-02-12T14:07:54+00:00</updated><id>http://localhost:4000/ja/feed.xml</id><title type="html">Frisco Template</title><subtitle>App marketing template for Jekyll.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">ShARe-ARをリリースしました！</title><link href="http://localhost:4000/ja/ar/release/2021/01/13/share-ar/" rel="alternate" type="text/html" title="ShARe-ARをリリースしました！" /><published>2021-01-13T00:00:00+00:00</published><updated>2021-01-13T00:00:00+00:00</updated><id>http://localhost:4000/ja/ar/release/2021/01/13/share-ar</id><content type="html" xml:base="http://localhost:4000/ja/ar/release/2021/01/13/share-ar/">&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/share-ar/id1541093585#?platform=iphone&quot;&gt;ShARe-AR&lt;/a&gt;をiPhoneのアプリストアに公開しました！&lt;/p&gt;
-
-&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/ja/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ja/" rel="alternate" type="text/html" hreflang="ja" /><updated>2021-02-13T07:40:04+00:00</updated><id>http://localhost:4000/ja/feed.xml</id><title type="html">Frisco Template</title><subtitle>App marketing template for Jekyll.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">ShARe-ARをリリースしました！</title><link href="http://localhost:4000/ja/ar/release/2021/01/13/share-ar/" rel="alternate" type="text/html" title="ShARe-ARをリリースしました！" /><published>2021-01-13T00:00:00+00:00</published><updated>2021-01-13T00:00:00+00:00</updated><id>http://localhost:4000/ja/ar/release/2021/01/13/share-ar</id><content type="html" xml:base="http://localhost:4000/ja/ar/release/2021/01/13/share-ar/">&lt;style&gt;
 * {
   box-sizing: border-box;
 }
@@ -19,6 +17,11 @@
 }
 &lt;/style&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/share-ar/id1541093585#?platform=iphone&quot;&gt;ShARe-AR&lt;/a&gt;をiPhoneのアプリストアに公開しました！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/share-ar/id1541093585?itscg=30200&amp;amp;itsct=apps_box&quot; style=&quot;width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;&quot;&gt;&lt;img src=&quot;/images/logo/share-ar.png&quot; alt=&quot;ShARe-AR&quot; style=&quot;width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;&quot; align=&quot;center&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://apps.apple.com/us/app/share-ar/id1541093585?itscg=30200&amp;amp;itsct=apps_box&quot; style=&quot;width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;&quot;&gt;&lt;img src=&quot;/ja/images/appstore/black_ja.svg&quot; alt=&quot;ShARe-AR&quot; style=&quot;width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;&quot; align=&quot;center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;column&quot;&gt;
     &lt;a href=&quot;https://ibb.co/M8n7Vy9&quot;&gt;&lt;img src=&quot;https://i.ibb.co/xmh6jK3/screenshot-4.png&quot; alt=&quot;screenshot-4&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;
@@ -31,4 +34,32 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;このアプリではAR(仮想現実)の色の違う立方体と球体を組み合わせてを使って、作りたいものを作れます。ぜひダウンロードしてみてください。&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">ShARe-ARをiPhoneのアプリストアに公開しました！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://source.unsplash.com/collection/375719/2000x1322?a=.png" /></entry></feed>
+&lt;p&gt;このアプリではARの色の違う立方体と球体を組み合わせてを使って、作りたいものを作れます。上の写真にあるように、他のユーザーが作成したピカチュウをダウンロードできたり、また自分でも好きな物を作れます。そして、自作したモデルに関してはダウンロード数をいつでも確認することができます。&lt;/p&gt;
+
+&lt;p&gt;この記事ではアプリ開発に至った経緯と、アプリの使い方について書きたいと思います。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;開発したきっかけ&lt;/li&gt;
+  &lt;li&gt;使い方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;開発したきっかけ&quot;&gt;開発したきっかけ&lt;/h2&gt;
+
+&lt;p&gt;Pokemon GoをきっかけにAR（仮想現実）に注目が集まってしばらくしましたが、一般的には2021年現在であってもARはあまり身近に浸透していません。筆者自身ARのアプリを使うことが全然なく、将来使われるようになるんだろうなぐらいに思っていました。&lt;/p&gt;
+
+&lt;p&gt;2020年10月、大学で普通に授業を受けていると、ある時友達がハッカソンに誘ってくれました。ハッカソンとは24時間でスマホアプリなどを作り上げ、そのクオリティを他のチームと競い合うという大会です。そこでiPhoneでせっかくARを使えるのだから、ARのアプリを作ってみようということになりました。&lt;/p&gt;
+
+&lt;p&gt;ARとは、3Dモデルを使って現実世界に存在しているかのように投影する技術のことですが、この3Dモデルを作成するにはどうやらパソコンを使って難しいソフトウェアを使わないと無理だということに気づきました。筆者のチームは、これをもっと簡単にケータイのアプリから作れるようにすれば、もっと多くの人がARで遊べるのではないかと考え、そこで「誰でも簡単に3Dモデルを作って、ARで遊べる」をコンセプトにアプリを作ることにしました。ShARe-ARはこの時に作ったmARketplaceというアプリを元にして作られました。&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; text-align=&quot;center&quot; src=&quot;https://www.youtube.com/embed/vDZaJv55KNA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;使い方&quot;&gt;使い方&lt;/h2&gt;
+
+&lt;div style=&quot;padding:145.56% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/511879263?autoplay=1&amp;amp;loop=1&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;このデモビデオでは、緑と茶色の立方体を組み合わせて木を作っています。このように想像力次第でなんでもできるので、ARで何か作ってみたいということであれば、ぜひダウンロードしてみてください。&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://source.unsplash.com/collection/375719/2000x1322?a=.png" /></entry></feed>
